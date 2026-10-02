@@ -1,0 +1,25 @@
+{
+    "name": "Repubblica",
+    "startUrls": [
+        "https://www.repubblica.it/"
+    ],
+    "article": {
+        "container": "article",
+        "title": "h2.entry__title a",
+        "url": "a[href]"
+    },
+    "titleSelector": "h2.entry__title a",
+    "filters": {
+        "excludeTitle": [
+            "Abbonati",
+            "Login"
+        ],
+        "excludeUrl": [
+            "/login",
+            "/abbonamenti"
+        ]
+    },
+    "limits": {
+        "maxArticles": 100
+    }
+}

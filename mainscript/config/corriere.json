@@ -1,0 +1,25 @@
+{
+    "name": "Corriere",
+    "startUrls": [
+        "https://www.corriere.it/"
+    ],
+    "article": {
+        "container": "article",
+        "title": "h2.media-news__title a",
+        "url": "a[href]"
+    },
+    "titleSelector": "h2.media-news__title a",
+    "filters": {
+        "excludeTitle": [
+            "Abbonati",
+            "Login"
+        ],
+        "excludeUrl": [
+            "/login",
+            "/abbonamenti"
+        ]
+    },
+    "limits": {
+        "maxArticles": 100
+    }
+}
